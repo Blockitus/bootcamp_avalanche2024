@@ -1,0 +1,35 @@
+Guion clase4 Avalanche Bootcamp
+
+Contenido
+
+1-Arrays
+En Remix, ir al contrato WhiteboardArray 
+
+
+    //Arrays x[T], x[0]->devuelve el primer elemento
+    //Tipos de Arrays:
+    //de longitud finita
+    //de longitud variable
+    //compuestos/matrices
+    //miembros de arrays
+    //acceso a elementos
+    //segmentacion de arreglos, x[start:end],
+    
+    
+ 2-Structs
+ En Remix, ir al contrato WhiteBoardStruct
+ //Structs
+ //Declaracion de structs
+ //CRUD (CREATE, READ, UPDATE, DELETE)
+ //Arrays de structs
+ //Mappings de structs
+ 
+ 3-Enums
+ En Remix, ir al contrato WhiteBoardEnum
+ 
+ //Enum
+ //Declaracion de enums
+ //Enums como argumentos
+ //Enum dentro de structs
+ 
+ 
