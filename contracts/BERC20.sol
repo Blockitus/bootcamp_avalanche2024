@@ -16,7 +16,7 @@ contract  Blockitus is ERC20, AccessControl {
     constructor(address _airdrop, address _minterAddress, address _burnerAddress) ERC20("Blockitus Token", "ITOS") {
         if(_minterAddress == address(0)) revert ZeroAddressNotAllowed();
         if(_burnerAddress == address(0)) revert ZeroAddressNotAllowed();
-        grantRole(MINTER, _minterAddress);
+        _grantRole(MINTER, _minterAddress);
         _grantRole(BURNER, _burnerAddress);
         airdrop = _airdrop;
         _mint(airdrop, INITIALSUPPLY*10**decimals());
